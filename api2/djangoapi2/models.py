@@ -15,7 +15,6 @@ class Book(models.Model):
 
 class Campus(models.Model):
     campus_name = models.CharField(max_length=10)
-    location = models.CharField(max_length=10)
 
     def __str__(self):
         return self.campus_name
